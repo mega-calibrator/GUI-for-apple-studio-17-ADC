@@ -6,7 +6,7 @@ from monitorcontrol import get_monitors
 def main():
     window = Tk()
     window.title("DDC/CI for CRT")
-    window.tk.call('tk', 'scaling', 1)
+    window.tk.call('tk', 'scaling', 2)
     s = ttk.Style()
     lowres = True
     tabfont = 10
