@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [project.scripts]
-powertoggle = "power_toggle:main"
+adcpowertoggle = "power_toggle:main"
 
 [project.gui-scripts]
 #
