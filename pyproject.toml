@@ -22,8 +22,7 @@ dependencies = [
 ]
 
 [project.scripts]
-crtguiverbose = "crt_ddc:main"
-crttestread = "test_read:main"
+powertoggle = "power_toggle:main"
 
 [project.gui-scripts]
 #
