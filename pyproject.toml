@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adc_crt_gui"
+version = "0.1.0"
+authors = [
+  { name="agfa", email="agfa.0mc@gmail.com" },
+]
+description = "Tool for controlling Apple M7768 CRTs"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+]
+dependencies = [
+    "monitorcontrol",
+]
+
+[project.scripts]
+crtguiverbose = "crt_ddc:main"
+crttestread = "test_read:main"
+
+[project.gui-scripts]
+#
+
+[project.urls]
+Homepage = "https://github.com/mega-calibrator/GUI-for-apple-studio-17-ADC"
+Issues = "https://github.com/mega-calibrator/GUI-for-apple-studio-17-ADC/issues"
