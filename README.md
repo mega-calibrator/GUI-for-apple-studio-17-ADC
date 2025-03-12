@@ -15,7 +15,7 @@ HDMI DACs are not supported
 ## Building from source
 install [Python](https://www.python.org/downloads/windows/) with `pip` for windows 
 
-clone repository, change to the DDC-for-CRT directory and run
+clone repository, change to the GUI-for-apple-studio-17-ADC directory and run
 
 ```
 pip install --upgrade .
