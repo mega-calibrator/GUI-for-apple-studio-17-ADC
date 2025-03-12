@@ -110,10 +110,9 @@ def main():
             print("\nAll monitors compatible!")
         else:
             print("\nIncompatible monitors:", badmonitors)
-
         main_notebook = ttk.Notebook(window, padding=4)
         main_notebook.pack()
-        print("\nStarting code detection!")
+        print("\nAssembling GUI")
         for i, monitor in enumerate(monitors):
             print("\nNext monitor:", str(i), "compatible:", str(i not in badmonitors).lower())
             if i not in badmonitors:
