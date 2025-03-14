@@ -44,7 +44,7 @@ degauss the monitor
 
 use mouse and keyboard to adjust the geometry
 
-##Notes
+## Notes
 the read button should be used after changing the resolution
 
 the monitor will forget the changes made through software if you for change change resolution or power cycle
