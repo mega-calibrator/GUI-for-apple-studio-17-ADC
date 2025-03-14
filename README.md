@@ -44,6 +44,8 @@ run `adccrtgui`
 power the monitor on and off, run a degauss cycle, and adjust the geometry, all with your mouse and keyboard!
 
 ## Notes
+due to how the monitor is controlled, if you have multiple units connected, the power toggles will be labeled separately from the main adjustment options
+
 the read button should be used after changing the resolution
 
 the monitor will forget the changes made through software if you for change change resolution or power cycle
