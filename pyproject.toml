@@ -19,6 +19,7 @@ classifiers = [
 ]
 dependencies = [
     "monitorcontrol @ git+https://github.com/mega-calibrator/monitorcontrol.git@main",
+    "sv_ttk",
 ]
 
 [project.scripts]
