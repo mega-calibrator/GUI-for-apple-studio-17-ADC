@@ -38,14 +38,9 @@ pip install --upgrade .
 run `adccrtgui`
 
 ## Usage
-use mouse and keyboard to adjust controls usually available in the OSD menu of your PC CRT monitor
+use mouse and keyboard to adjust your Apple ADC Studio Display's geometry, and degauss the monitor!
 
-save and load profiles of settings
-
-degauss the monitor
-
-## Notes
-the read button should be used after changing the resolution or settings on the monitor itself
+the read button should be used after changing the resolution
 
 the monitor will forget the changes made through software if you for change change resolution or power cycle
 <br/>
