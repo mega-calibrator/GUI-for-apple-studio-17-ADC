@@ -1,5 +1,5 @@
 # GUI-for-apple-studio-17-ADC
-Fully utilize your clear apple studio display on modern Windows! 
+This program allows for full utilization of a clear apple studio display on modern Windows.
 
 <div align="center">
   
@@ -34,15 +34,14 @@ pip install --upgrade .
 ```
 
 ## Running
+open the executable 
+
+if installed from source:
 
 run `adccrtgui`
 
 ## Usage
-power the monitor on and off
-
-degauss the monitor
-
-use mouse and keyboard to adjust the geometry
+power the monitor on and off, run a degauss cycle, and adjust the geometry, all with your mouse and keyboard!
 
 ## Notes
 the read button should be used after changing the resolution
