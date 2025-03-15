@@ -152,7 +152,7 @@ def main():
                 with self.monitorobj:
                     while True:
                         try:
-                            self.monitorobj.vcp.set_vcp_feature(code=int("0xD6", 16), value=4)
+                            self.monitorobj.set_power_mode(4)
                         except:
                             pass
                         else:
@@ -162,7 +162,7 @@ def main():
                 with self.monitorobj:
                     while True:
                         try:
-                            self.monitorobj.vcp.set_vcp_feature(code=int("0xD6", 16), value=1)
+                            self.monitorobj.set_power_mode(1)
                         except:
                             pass
                         else:
@@ -313,7 +313,7 @@ def main():
                 except:
                     progress.update()
                     try:
-                        monitor.vcp.get_vcp_feature(code=int("0xD6", 16))
+                        monitor.get_power_mode()
                     except:
                         progress.update()
                     else:
