@@ -185,7 +185,7 @@ def main():
             self.monitorobj = monitor
             self.code = code
             self.index = index
-            self.usagecode = hid.get_full_usage_id(0x82, int(code, 16))
+            self.usagecode = hid.get_full_usage_id(0x82, int(self.code, 16))
             self.boxvalue = IntVar(value=self.codevalues[0])
             self.label = ttk.Label(self.parent, text=vcp_codes[self.code])
             self.label.grid(row=self.index, column=3, padx=padlarge, sticky=W)
@@ -193,8 +193,8 @@ def main():
         def new_sliderbox(self):
             def field_entered(event):
                 newentry = self.boxvalue.get()
-                if int(newentry) > 255:
-                    self.slider.set(255)
+                if int(newentry) > vcp_code_max[self.code]:
+                    self.slider.set(vcp_code_max[self.code])
                 else:
                     self.slider.set(int(newentry))
 
