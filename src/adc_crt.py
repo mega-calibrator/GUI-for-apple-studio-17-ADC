@@ -293,7 +293,7 @@ def main():
 
             buttonframe = ttk.Frame(noteframe, borderwidth=2, relief=SUNKEN)
             buttonframe.grid(row=adjusterindex+1, column=0, columnspan=5, ipadx=padlarge, ipady=padlarge, pady=padXL)
-            vsynclabel = ttk.Label(buttonframe, text="V. Rate: "+str(vsync)+"Hz")
+            vsynclabel = ttk.Label(buttonframe, text="V. Rate: "+str(vsync)+" Hz")
             vsynclabel.pack(side=LEFT, padx=padXL)
             donger = dong_button(buttonframe, adc_crt)
             donger.make_button()
